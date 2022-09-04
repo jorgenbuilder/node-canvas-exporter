@@ -2,7 +2,8 @@ Capture an image from three js without a browser, only in node. Requires python 
 
 ```
 npm i
-npx ts-node ./index.ts
+npm run render
+npm run render ./scenes/test/green-cube.ts
 ```
 
 ![output](./image.png)
